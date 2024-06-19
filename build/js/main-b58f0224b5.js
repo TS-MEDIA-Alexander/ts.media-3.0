@@ -48783,7 +48783,7 @@ function addHoverVideo() {
                this._mobileMenuActive = !1,
                this.init = t => {
                /* if (*/this._element = t,
-                     this._quoteDisplay = new mo(t.querySelector(".QuoteDisplay")),
+                     /* this._quoteDisplay = new mo(t.querySelector(".QuoteDisplay")), */
                      this._menuBulge = new Eo(document.querySelector("#MenuBulge")),
                      a.IS_TOUCH_DEVICE || this._menuBulge.activate(),
                      this._logoContainer = document.body.querySelector(".logo"),
