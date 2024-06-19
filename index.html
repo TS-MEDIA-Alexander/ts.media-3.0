@@ -2277,12 +2277,12 @@
    <script src="build/js/main-b58f0224b5.js" defer></script>
    <script>
       //Вставка хедэра
-      fetch("../build/components/header/index.html")
+      fetch("./build/components/header/index.html")
          .then(response => response.text())
          .then(html => document.getElementById('header').innerHTML = html);
 
       //Вставка меню
-      fetch("../build/components/menu/index.html")
+      fetch("./build/components/menu/index.html")
          .then(response => response.text())
          .then(html => document.getElementById('menu').innerHTML = html);
    </script>
