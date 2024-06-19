@@ -9491,7 +9491,8 @@ button.vjs-play-control:hover {
 .case__video .video_height {
    height: 100%;
 }
-.case__video-header .video{
+
+.case__video-header .video {
    width: 100%;
    height: 100%;
 }
@@ -9635,7 +9636,8 @@ button.vjs-play-control:hover {
    flex-wrap: wrap;
 }
 
-.case__img-container img {
+.case__img-container img,
+.case__flex-contain-low img {
    max-width: 100%;
    /* height: 100%; */
 }
@@ -9714,7 +9716,19 @@ button.vjs-play-control:hover {
 /* -------------------------------------------------case__column------------------------------------------------------------- */
 .case__img-row-column-container {
    display: flex;
-   justify-content: end;
+   justify-content: space-between;
+}
+
+.case__img-row-column-container img {
+   max-width: 490px;
+   height: 100%;
+}
+
+@media screen and (max-width: 1690px){
+   .case__img-row-column-container img {
+      max-width: 100%;
+      height: 100%;
+   }
 }
 
 .case__img-row-column-container_left {

@@ -121,11 +121,11 @@ function addControlAudio() {
 }
 
 function addHoverVideo() {
-   document.querySelector(".case__video-hover").querySelector('video').addEventListener("mouseover", function() {
+   document.querySelector(".case__video-hover")?.querySelector('video').addEventListener("mouseover", function() {
       this.play();
    });
    
-   document.querySelector(".case__video-hover").querySelector('video').addEventListener("mouseleave", function() {
+   document.querySelector(".case__video-hover")?.querySelector('video').addEventListener("mouseleave", function() {
       this.pause();
    });
 }
