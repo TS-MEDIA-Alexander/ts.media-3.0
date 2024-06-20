@@ -70265,7 +70265,7 @@ function addHoverVideo() {
                this._enterPoint = new Et(0, 0),
                this._edges = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
                this._circleContainer = new Zt,
-               this._spriteSheet = $r.shared.resources["/ts.media-3.0/assets/spritesheets/face_all.json"].spritesheet,/* ссылка */
+               this._spriteSheet = $r.shared.resources["/assets/spritesheets/face_all.json"].spritesheet,/* ссылка */
                this._faceLabels = ["AdultToBaby", "BabyToTeen", "TeenToAdult", "LtoR", "RtoL", "DownUp", "UpDown"],
                this.setupEye = () => {
                   this.changeFace(0)
@@ -73288,7 +73288,7 @@ function addHoverVideo() {
                ,
                this.loadSpriteSheets = () => {
                   let t = $r.shared;
-                  t.add("/ts.media-3.0/assets/spritesheets/face_all.json"),/* ссылка */
+                  t.add("/assets/spritesheets/face_all.json"),/* ссылка */
                      t.load(this.assetsLoaded)
                }
                ,

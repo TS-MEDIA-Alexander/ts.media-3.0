@@ -1,3 +1,22 @@
+/* -------------------------------------------------cipr__отступы------------------------------------------------------------- */
+@media screen and (max-width: 1633px) {}
+
+@media screen and (max-width: 1666px) {
+   .case__video.cipr__m-t-mobil {
+      margin-top: 132px;
+   }
+
+   .case__text-fly {
+      top: 0;
+   }
+}
+
+@media screen and (max-width: 930px) {
+   .case__text.m-t-mobil {
+      margin-top: 132px;
+   }
+}
+
 /* -------------------------------------------------cipr__subheader------------------------------------------------------------- */
 .cipr__video-header {
    background: url('./../../assets/images/cipr/cipr-img-header.svg') center no-repeat;
